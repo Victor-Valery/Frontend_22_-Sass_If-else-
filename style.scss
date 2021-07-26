@@ -20,3 +20,41 @@
     padding: 10px 15px;
     @include stil("GS")
 }
+
+// each döngüleri
+
+$boyutlar: (
+    1:100,
+    2:200,
+    3:300,
+    4:400,
+    5:500
+);
+
+@each $isim, $boyut in $boyutlar{
+    .b-#{$isim}{
+        float:left;
+        width: $boyut +px;
+        font-size: 10 + $boyut +px;
+    }
+}
+
+// for döngüsü
+
+@for $i from 1 through 5 {    /*  through yazinca 5 dahil olur to yazilirsa 5 dahil olmaz */
+    .ahmet#{$i}{
+        float:left;
+        width: $i * 100 +px;
+    }
+}
+
+// while döngüsü
+/* 
+$sayi : 1;
+@while ($sayi <= 5) {
+    .k_#{$sayi} {
+        float: left;
+        width: $sayi *100 + px;
+    } 
+    $sayi: $sayi + 1;
+} */

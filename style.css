@@ -4,4 +4,66 @@
   background-color: red;
   color: white;
 }
+
+.b-1 {
+  float: left;
+  width: 100px;
+  font-size: 110px;
+}
+
+.b-2 {
+  float: left;
+  width: 200px;
+  font-size: 210px;
+}
+
+.b-3 {
+  float: left;
+  width: 300px;
+  font-size: 310px;
+}
+
+.b-4 {
+  float: left;
+  width: 400px;
+  font-size: 410px;
+}
+
+.b-5 {
+  float: left;
+  width: 500px;
+  font-size: 510px;
+}
+
+/*  through yazinca 5 dahil olur to yazilirsa 5 dahil olmaz */
+.ahmet1 {
+  float: left;
+  width: 100px;
+}
+
+/*  through yazinca 5 dahil olur to yazilirsa 5 dahil olmaz */
+.ahmet2 {
+  float: left;
+  width: 200px;
+}
+
+/*  through yazinca 5 dahil olur to yazilirsa 5 dahil olmaz */
+.ahmet3 {
+  float: left;
+  width: 300px;
+}
+
+/*  through yazinca 5 dahil olur to yazilirsa 5 dahil olmaz */
+.ahmet4 {
+  float: left;
+  width: 400px;
+}
+
+/*  through yazinca 5 dahil olur to yazilirsa 5 dahil olmaz */
+.ahmet5 {
+  float: left;
+  width: 500px;
+}
+
+@wh;
 /*# sourceMappingURL=style.css.map */
